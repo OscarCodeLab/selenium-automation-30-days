@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation30days.day1.FileUploadTest">
+      <class name="automation30days.day1.DatePicker">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="multipleUploadTest"/>
+          <include name="datePickerTest2"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- automation30days.day1.FileUploadTest -->
+      </class> <!-- automation30days.day1.DatePicker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
